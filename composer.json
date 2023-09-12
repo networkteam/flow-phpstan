@@ -1,0 +1,19 @@
+{
+    "name": "networkteam/flow-phpstan",
+    "type": "phpstan-extension",
+    "description": "A PHPStan extension for neos/flow",
+    "keywords": [
+        "static analysis"
+    ],
+    "version": "0.0.1",
+    "require": {
+        "phpstan/phpstan": "^1.10"
+    },
+    "extra": {
+        "phpstan": {
+            "includes": [
+                "extension.neon"
+            ]
+        }
+    }
+}
