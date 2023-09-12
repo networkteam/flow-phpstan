@@ -1,0 +1,12 @@
+<?php
+namespace Neos\Flow\Core;
+
+class Bootstrap
+{
+    /**
+     * @template T of object
+     * @phpstan-param class-string<T> $objectName
+     * @phpstan-return T
+     */
+    public function getEarlyInstance(string $objectName);
+}
